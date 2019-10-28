@@ -11,7 +11,7 @@ public class NewTest {
     public String baseUrl="http://demo.guru99.com/test/newtours/";
     public String driverPath="src\\test\\resources\\Drivers\\chromedriver.exe";
     public WebDriver driver ; 
-     
+     //creating annotations
      @BeforeTest
       public void launchBrowser() {
           System.out.println("launching chrome browser"); 
@@ -29,6 +29,10 @@ public class NewTest {
           System.out.println(actualTitle);
           Assert.assertEquals(actualTitle, expectedTitle);
      }
+     @Test
+      public void display() {
+           System.out.println("Hello");
+        }
       @AfterTest
       public void terminateBrowser(){
           driver.close();
