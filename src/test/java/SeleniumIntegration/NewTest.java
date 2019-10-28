@@ -11,7 +11,7 @@ public class NewTest {
     public String baseUrl="http://demo.guru99.com/test/newtours/";
     public String driverPath="src\\test\\resources\\Drivers\\chromedriver.exe";
     public WebDriver driver ; 
-     
+     //creating test annotations
      @BeforeTest
       public void launchBrowser() {
           System.out.println("launching chrome browser"); 
