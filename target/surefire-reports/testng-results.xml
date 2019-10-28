@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumIntegration.NewTest" duration-ms="13420" started-at="2019-10-28T06:49:41Z" finished-at="2019-10-28T06:49:54Z">
+  <suite name="SeleniumIntegration.NewTest" duration-ms="17202" started-at="2019-10-28T08:32:13Z" finished-at="2019-10-28T08:32:30Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="13420" started-at="2019-10-28T06:49:41Z" finished-at="2019-10-28T06:49:54Z">
+    <test name="Command line test" duration-ms="17202" started-at="2019-10-28T08:32:13Z" finished-at="2019-10-28T08:32:30Z">
       <class name="SeleniumIntegration.NewTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="launchBrowser" is-config="true" duration-ms="13227" started-at="2019-10-28T06:49:41Z" finished-at="2019-10-28T06:49:54Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="launchBrowser" is-config="true" duration-ms="16955" started-at="2019-10-28T08:32:13Z" finished-at="2019-10-28T08:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="verifyHomepageTitle" duration-ms="8" started-at="2019-10-28T06:49:54Z" finished-at="2019-10-28T06:49:54Z">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="verifyHomepageTitle" duration-ms="7" started-at="2019-10-28T08:32:30Z" finished-at="2019-10-28T08:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="terminateBrowser" is-config="true" duration-ms="173" started-at="2019-10-28T06:49:54Z" finished-at="2019-10-28T06:49:54Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:SeleniumIntegration.NewTest@566776ad]" name="terminateBrowser" is-config="true" duration-ms="180" started-at="2019-10-28T08:32:30Z" finished-at="2019-10-28T08:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
